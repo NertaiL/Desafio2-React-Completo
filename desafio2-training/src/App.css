@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color:lightgoldenrodyellow;
+  display: flex;
+  
+}
+
+main{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background-color:ivory;
+  width: 30rem;
+  height: 35rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main:hover{
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 1);
+}
+
+.tittle{
+  padding-top: 1rem;
+}
+
+.btn{
+  width: 20rem;
+}
+
+.badge{
+  width: 20rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.badge h6{
+  margin-top:0.5rem;
+ 
+}
+
+.form-control{
+  width: 20rem;
+}
+
+h6{
+  margin-top: 1.5rem;
+}
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.formu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 4rem; */
+}
+
+.icons{
+  display: flex;
+  justify-content:space-evenly;
+  width: 13rem;
+}
+
+.iconsi-Face{
+  width: 2rem;
+  height: 2rem;
+}
+
+/* me gusto el color que dejo el vinculo asique lo deje asi nomas xd */
+/* a {
+  color: inherit; Hereda el color del elemento padre
+  text-decoration: none; Quita el subrayado
+} */
+
+.iconsi-git{
+  width: 2rem;
+  height: 2rem;
+}
+
+.iconsi-linke{
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.fa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: solid black 1px;
+  border-radius: 100%;
+}
+
+.gi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: solid black 1px;
+  border-radius: 100%;
+}
+.li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: solid black 1px;
+  border-radius: 100%;
+}
+
+
